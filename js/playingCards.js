@@ -10,7 +10,6 @@ if (Array.indexOf === undefined) {
 }
 
 (function (window, document, undefined) {
-
   var playingCards = window.playingCards = function (conf) {
     var c = objExtend(playingCards.defaults, conf);
     if (! (this instanceof playingCards)) {
