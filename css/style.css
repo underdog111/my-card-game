@@ -1,0 +1,22 @@
+body {
+  font-family: "Comic Sans", Helvetica, Arial;
+  background-color: #157F27;
+  color: #ffffff;
+}
+
+#container {
+  margin: 0 auto;
+  width: 860px;
+}
+
+h2 {
+  clear: both;
+}
+
+#error {
+  display: none;
+  color:  #ffffff;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  margin: 5px;
+}
